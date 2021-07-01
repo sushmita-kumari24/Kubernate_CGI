@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("kubernetes.png");
+    background-size: cover;
+    background-position: fixed;
+ 
+
+}
+
+#heading{
+ 
+ background: linear-gradient(15deg,rgba(83, 80, 83, 0.52) 0%,rgba(48, 48, 49, 0.774)100%);
+  margin-left: 3rem;
+  margin-top: 1rem;
+ margin-bottom: 1rem;
+ margin-right: 3rem;
+ padding: 2rem;
+ padding-bottom: 7rem;
+background-position: fixed;
+
+ 
+}
+#heading ul{
+    list-style: none;    
+    position :relative;
+}
+li{
+    float: left;
+    margin-left:10em ;
+    position :relative;
+}
+
+#imge{
+   
+}
+#i1{
+
+    margin-right:2rem;
+    padding-right:2rem ;
+    border-right:  2px solid white;
+    width: 210px;
+}
+#i2{
+    width: 110px;
+}
+
+h2{
+    color:white;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 50px;
+}
+
+#X{
+    margin-top: 2rem;
+    margin-left:20em ;
+    margin-right:1rem;
+    font-family: fantasy;
+    padding: 0.5em;
+    padding-inline: 2rem;
+    font-size: 22px;
+    
+
+    
+}
+input[type=text]:focus{
+    background-color: rgb(243, 242, 178);
+}
+
+button{
+padding: 1em;
+
+
+font-size: 20px;
+padding-left: 30px;
+padding-right: 30px;
+background-image: url("kub.jpg");
+background-size: cover;
+border-radius: 50px ;
+color:transparent;
+}
+
+button:active{
+    background-image: url("kub1.jpg");
+   transform: scale(-0.9);
+    
+}
+
+#container{
+    background: linear-gradient(15deg,rgba(87, 33, 87, 0.52) 0%,rgba(63, 19, 121, 0.774)100%);
+     margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 2rem;
+   padding-top: 1rem;
+    padding-bottom: 1rem ;
+    position:relative;
+}
+.exe{
+    background: linear-gradient(15deg,rgba(245, 244, 241, 0.52) 0%,rgba(250, 250, 234, 0.281)100%), no-repeat;
+    background-size: cover;
+    background-position: relative;
+    margin:50px;
+    padding-bottom:20rem ; 
+    
+}
+

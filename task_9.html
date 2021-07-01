@@ -1,0 +1,41 @@
+<script>
+    function lw(){
+    var i = document.getElementById("X").value
+    var xhr = new XMLHttpRequest();
+    
+    xhr.open("GET" ,"http://192.168.43.70/cgi-bin/task_9.py?X="+i,true);
+    xhr.send();
+    xhr.onload = function(){
+    var cmd = xhr.responseText;
+    document.getElementById("ik").innerHTML = cmd;
+    }
+    
+    }
+    </script>
+    <!DOCTYPE html>
+    <head>
+    <title>Welcome to docker container</title>
+   <link rel="stylesheet" href="style_9.css">
+    </head>
+    <body>
+    <div id="heading">
+      <ul>
+        <li>
+        <h2>Kubernet Command Web Application </h2>
+     </li>
+      <li id="imge"><img src="redhatgif.gif" id="i1" alt=""> <img src="kubernetes.gif" id="i2" alt=""></li> 
+    </ul>  
+    </div>
+
+     <div id="container">   
+
+    <input id="X" type = text size=70/> 
+    <button onclick="lw()">click</button>
+    
+    <pre>
+      <div class="exe">  
+    <div id="ik"> my div </div>
+    </pre>
+    </div>
+    </body>
+    </html>
